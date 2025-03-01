@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "alex_ho",
+    "classifications": [
+      "WebAPI/MVC/Dapper"
+    ],
+    "identity": "Biz.WebAPI",
+    "name": "Biz WebAPI Project.",
+    "shortName": "biz_webapi",
+    "sourceName": "Biz.WebAPI",
+    "preferNameDirectory": true,
+    "language": "C#"
+  }

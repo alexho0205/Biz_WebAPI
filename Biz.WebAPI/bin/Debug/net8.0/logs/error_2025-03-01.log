@@ -1,0 +1,5 @@
+2025-03-01 15:38:23.0154 14 ERROR | Biz.WebAPI.DataProviders.DemoDataProvider | Get Datas Error! EXCEPTION OCCURRED:System.InvalidOperationException: OracleConnection.ConnectionString is invalid
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1305
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 886
+   at Biz.WebAPI.DataProviders.DemoDataProvider.GetDatas() in c:\workspace\Template\Biz_WebAPI\Biz.WebAPI\DataProviders\DemoDataProvider.cs:line 25

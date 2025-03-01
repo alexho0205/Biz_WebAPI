@@ -1,0 +1,4 @@
+2025-03-01 15:38:22.4208 14 INFO | Biz.WebAPI.Controllers.DemoController | !!!!!!!!!funtion1!!!!!!!!
+2025-03-01 16:07:23.5014 10 INFO | Biz.WebAPI.Controllers.DemoController | !!!!!!!!!funtion1!!!!!!!!
+2025-03-01 16:22:04.4543 9 INFO | Biz.WebAPI.Controllers.DemoController | !!!!!!!!!QueryForList!!!!!!!!
+2025-03-01 16:22:08.5885 11 INFO | Biz.WebAPI.Controllers.DemoController | !!!!!!!!!QueryForModels!!!!!!!!
