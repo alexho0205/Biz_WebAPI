@@ -15,13 +15,13 @@
 Biz_T_WebAPi_Nlog_Dapper
 
 # 建立解決方案
-dotnet new sln -n Biz_T_WebAPi_Nlog_Dapper
+dotnet new sln -n Biz_WebAPI
 
 # 建立專案,
-dotnet new webapi --use-controllers -o Biz.T.WebApi.Nlog.Dapper
+dotnet new webapi --use-controllers -o Biz_WebAPI
 
 # 加入解決方案 (反斜線為power-shell自動生成)
-dotnet sln .\Biz_T_WebAPi_Nlog_Dapper.sln add .\Biz.T.WebApi.Nlog.Dapper\Biz.T.WebApi.Nlog.Dapper.csproj
+dotnet sln .\Biz_WebAPI.sln add .\Biz_WebAPI\Biz_WebAPI.csproj
 
 ```
 
@@ -72,7 +72,7 @@ http://localhost:5176/swagger/index.html
 參考以下指令將專案打包為樣板
   ``` bash
   # 移到動專案根目錄
-  cd C:\workspace\Template\Biz_T_WebAPi_Nlog_Dapper
+  cd C:\workspace\Template\Biz_WebAPI
   # 打包專案模板
   dotnet new install .
   # 檢查是否成功
