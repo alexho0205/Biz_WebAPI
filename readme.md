@@ -12,7 +12,7 @@
 首先需要建立空專案.
 ``` bash
 # 建立資料夾 
-Biz_T_WebAPi_Nlog_Dapper
+Biz_WebAPI
 
 # 建立解決方案
 dotnet new sln -n Biz_WebAPI
